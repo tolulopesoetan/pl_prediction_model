@@ -6,5 +6,7 @@ statsmodels
 understat
 aiohttp
 nest_asyncio
-feedparser
+ipykernel
+requests
 vaderSentiment
+python-dotenv
