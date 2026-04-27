@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+statsmodels
+understat
+aiohttp
+nest_asyncio
