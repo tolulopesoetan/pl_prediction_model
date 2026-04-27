@@ -6,3 +6,5 @@ statsmodels
 understat
 aiohttp
 nest_asyncio
+feedparser
+vaderSentiment
