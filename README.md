@@ -18,9 +18,22 @@ The goal is to compare:
 - `notebooks/02_model_training.ipynb`
 - `notebooks/03_evaluation_and_results.ipynb`
 
-# Environment note
+Setup:
 
-Create and activate a virtual environment before running the notebooks
+1. Create a virtual environment:
+   python -m venv .venv
+   source .venv/bin/activate
 
-Required packages are listed in `requirements.txt`.
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Create a .env file locally:
+   GUARDIAN_API_KEY=your_api_key_here
+
+4. Run notebooks in order:
+   notebooks/01_data_ingestion_and_preprocessing.ipynb
+   notebooks/02_model_training.ipynb
+   notebooks/03_evaluation_and_results.ipynb
+
+Note: The real .env file is not included for security reasons.
 
